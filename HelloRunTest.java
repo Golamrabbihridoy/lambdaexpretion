@@ -1,5 +1,5 @@
 package main;
 
 public interface HelloRunTest {
-	public String PrintHello(String name);
+	public String sayHello(String name);
 }

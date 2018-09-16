@@ -1,9 +1,9 @@
 package main;
 
 public class HelloWordRunTest {
-     public void main(String[] args) {
+     public static void main(String[] args) {
     	 HelloRunTest hw = (name)->"hello" + name;
-    	 String h=hw.PrintHello("Rabbi");
+    	 String h=hw.sayHello("Rabbi");
     	 System.out.println(h);
      }
      
